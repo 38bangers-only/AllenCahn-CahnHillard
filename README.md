@@ -1,5 +1,4 @@
 # 2D Phase Field PINNs: Allen-Cahn and Cahn-Hillard 
-# Phase-Field PINNs: Allen-Cahn & Cahn-Hilliard
 
 A PyTorch implementation of Physics-Informed Neural Networks (PINNs) to solve two 2D phase-field equations, that
 rains neural networks to solve the **Allen-Cahn** and **Cahn-Hilliard** PDEs without any traditional numerical solver — just autograd and a composite loss function.
