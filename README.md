@@ -14,6 +14,8 @@ pip install torch numpy matplotlib
 python ACHPINN.py
 ```
 
+NOTE : To obtain the best results out of the model, preferably run it on a GPU. The script is tailored to detect CUDA
+
 Saves model weights (`ac_model.pth`, `ch_model.pth`) and a results figure (`phase_field_pinns.png`).
 
 ## Tunable parameters
