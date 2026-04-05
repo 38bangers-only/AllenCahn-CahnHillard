@@ -4,9 +4,9 @@ A PyTorch implementation of Physics-Informed Neural Networks (PINNs) to solve tw
 rains neural networks to solve the **Allen-Cahn** and **Cahn-Hilliard** PDEs without any traditional numerical solver — just autograd and a composite loss function.
 
 - **Allen-Cahn** — models interface motion (circular droplet IC)
-- **Cahn-Hilliard** — models spinodal decomposition (conserves mass)
+- **Cahn-Hilliard** — models spinodal decomposition (conserves mass). A fourth order-PDE, which had to be split into two PDEs with separate independent parameters spatio-temporally.
 
-Both run on a 2D unit square domain with Neumann (zero-flux) boundary conditions. This was a quite interesting and challenging project as it required modelling two fourth-order PDEs, which were split into two second-order non parabolic PDEs for breaking down complexity.
+Both run on a 2D unit square domain with Neumann (zero-flux) boundary conditions.
 
 ## How to run
 ```bash
